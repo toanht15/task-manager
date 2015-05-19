@@ -1,0 +1,895 @@
+2015/05/17 09:43:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/yii/framework/cli/commands/MigrateCommand.php(472): CModule->getComponent('db')
+#4 /var/www/yii/framework/cli/commands/MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 /var/www/yii/framework/cli/commands/MigrateCommand.php(512): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#12 /var/www/yii/framework/yiic.php(33): CApplication->run()
+#13 /var/www/html/tma/protected/yiic.php(7): require_once('/var/www/yii/fr...')
+#14 {main}
+---
+2015/05/17 04:13:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects/index
+---
+2015/05/17 04:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects/index
+---
+2015/05/17 04:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects/index
+---
+2015/05/17 04:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects/index
+---
+2015/05/17 04:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects/index
+---
+2015/05/17 04:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "project/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/project/index
+---
+2015/05/17 04:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects/index
+---
+2015/05/17 04:14:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects
+---
+2015/05/17 04:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects
+---
+2015/05/17 04:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects
+---
+2015/05/17 04:22:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects
+---
+2015/05/17 04:22:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects
+---
+2015/05/17 04:22:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects
+---
+2015/05/17 04:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/tma/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projects/index
+---
+2015/05/17 08:53:02 [error] [exception.CException] exception 'CException' with message 'CClientScript and its behaviors do not have a method or closure named "regitserCssFile".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/tma/protected/views/layouts/main.php(8): CComponent->__call('regitserCssFile', Array)
+#1 /var/www/html/tma/protected/views/layouts/main.php(8): CClientScript->regitserCssFile('//maxcdn.bootst...')
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/html/t...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/t...', Array, true)
+#4 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/html/t...', Array, true)
+#5 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 /var/www/yii/framework/web/CBaseController.php(214): COutputProcessor->run()
+#8 /var/www/yii/framework/web/CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#9 /var/www/html/tma/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#10 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/html/t...')
+#11 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/t...', Array, true)
+#12 /var/www/yii/framework/web/CController.php(784): CBaseController->renderFile('/var/www/html/t...', Array, true)
+#13 /var/www/html/tma/protected/controllers/SiteController.php(32): CController->render('index')
+#14 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#15 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#17 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#19 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/html/tma/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2015/05/17 09:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "save".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('save')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('save')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/save')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/tma/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/projects/save
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/17 11:19:21 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "lableEx".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/tma/protected/views/projects/save.php(13): CComponent->__call('lableEx', Array)
+#1 /var/www/html/tma/protected/views/projects/save.php(13): CActiveForm->lableEx(Object(Projects), 'name', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/html/t...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/t...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/t...', Array, true)
+#5 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('save', Array, true)
+#6 /var/www/html/tma/protected/controllers/ProjectsController.php(47): CController->render('save', Array)
+#7 [internal function]: ProjectsController->actionSave(NULL)
+#8 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('save')
+#14 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/save')
+#15 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /var/www/html/tma/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/projects/save
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/17 11:20:04 [error] [exception.CException] exception 'CException' with message 'Alias "zii.widgets.jui.CJuiDatepicker" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('zii.widgets.jui...', true)
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(ProjectsController), 'zii.widgets.jui...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 /var/www/html/tma/protected/views/projects/save.php(41): CBaseController->widget('zii.widgets.jui...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/html/t...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/t...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/t...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('save', Array, true)
+#8 /var/www/html/tma/protected/controllers/ProjectsController.php(47): CController->render('save', Array)
+#9 [internal function]: ProjectsController->actionSave(NULL)
+#10 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#11 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#12 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#14 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('save')
+#16 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/save')
+#17 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/html/tma/index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/projects/save
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/17 12:57:07 [error] [exception.CException] exception 'CException' with message 'Alias "zii.widgets.jui.CJuiDatepicker" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('zii.widgets.jui...', true)
+#1 /var/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(ProjectsController), 'zii.widgets.jui...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 /var/www/html/tma/protected/views/projects/save.php(41): CBaseController->widget('zii.widgets.jui...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/html/t...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/t...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/t...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('save', Array, true)
+#8 /var/www/html/tma/protected/controllers/ProjectsController.php(47): CController->render('save', Array)
+#9 [internal function]: ProjectsController->actionSave(NULL)
+#10 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#11 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#12 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#14 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('save')
+#16 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/save')
+#17 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/html/tma/index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/projects/save
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/17 13:04:23 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php/projects/complete/
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (15)
+2015/05/17 13:04:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/yii/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#4 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/delete')
+#5 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/tma/index.php(15): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/projects/delete/
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/18 16:18:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Missing ID' in /var/www/html/tma/protected/controllers/ProjectsController.php:52
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks(NULL)
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/projects/tasks/
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/18 16:18:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Missing ID' in /var/www/html/tma/protected/controllers/ProjectsController.php:52
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks(NULL)
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/projects/tasks/
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/18 16:18:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Missing ID' in /var/www/html/tma/protected/controllers/ProjectsController.php:52
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks(NULL)
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/projects/tasks/
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/18 16:18:57 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php/projects/complete/
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (15)
+2015/05/18 16:19:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Missing ID' in /var/www/html/tma/protected/controllers/ProjectsController.php:52
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks(NULL)
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/projects/tasks/
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index?Projects_page=2
+---
+2015/05/18 16:19:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Missing ID' in /var/www/html/tma/protected/controllers/ProjectsController.php:52
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks(NULL)
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/projects/tasks/
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/18 16:20:39 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php/projects/complete/
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (15)
+2015/05/18 16:21:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Missing ID' in /var/www/html/tma/protected/controllers/ProjectsController.php:52
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks(NULL)
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/projects/tasks/
+HTTP_REFERER=http://mytasks.dev/index.php/projects/index
+---
+2015/05/18 16:48:57 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php/projects/complete/
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (15)
+2015/05/19 10:39:09 [error] [php] Undefined variable: thist (/var/www/html/tma/protected/migrations/m150517_023431_tasks.php:31)
+Stack trace:
+#0 unknown(0): MigrateCommand->actionDown()
+#1 /var/www/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/console/CConsoleCommandRunner.php(71): MigrateCommand->run()
+#3 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#5 /var/www/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/html/tma/protected/yiic.php(7): require_once()
+
+2015/05/19 10:39:45 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tasks'
+2015/05/19 10:39:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tasks. The SQL statement executed was: DROP TABLE 'tasks'.
+2015/05/19 10:39:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tasks. The SQL statement executed was: DROP TABLE 'tasks'' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /var/www/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('tasks')
+#2 /var/www/html/tma/protected/migrations/m150517_023431_tasks.php(30): CDbMigration->dropTable('tasks')
+#3 /var/www/yii/framework/cli/commands/MigrateCommand.php(440): m150517_023431_tasks->down()
+#4 /var/www/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m150517_023431_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /var/www/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#10 /var/www/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/tma/protected/yiic.php(7): require_once('/var/www/yii/fr...')
+#12 {main}
+---
+2015/05/19 10:40:15 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tasks'
+2015/05/19 10:40:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tasks. The SQL statement executed was: DROP TABLE 'tasks'.
+2015/05/19 10:40:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tasks. The SQL statement executed was: DROP TABLE 'tasks'' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /var/www/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('tasks')
+#2 /var/www/html/tma/protected/migrations/m150517_023431_tasks.php(30): CDbMigration->dropTable('tasks')
+#3 /var/www/yii/framework/cli/commands/MigrateCommand.php(440): m150517_023431_tasks->down()
+#4 /var/www/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m150517_023431_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /var/www/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#10 /var/www/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/tma/protected/yiic.php(7): require_once('/var/www/yii/fr...')
+#12 {main}
+---
+2015/05/19 10:40:50 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tasks'
+2015/05/19 10:40:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tasks. The SQL statement executed was: DROP TABLE 'tasks'.
+2015/05/19 10:40:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tasks. The SQL statement executed was: DROP TABLE 'tasks'' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1375): CDbCommand->execute()
+#1 /var/www/yii/framework/db/CDbMigration.php(275): CDbCommand->dropTable('tasks')
+#2 /var/www/html/tma/protected/migrations/m150517_023431_tasks.php(30): CDbMigration->dropTable('tasks')
+#3 /var/www/yii/framework/cli/commands/MigrateCommand.php(440): m150517_023431_tasks->down()
+#4 /var/www/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m150517_023431_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 /var/www/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#10 /var/www/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/tma/protected/yiic.php(7): require_once('/var/www/yii/fr...')
+#12 {main}
+---
+2015/05/19 03:42:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'No project with that ID exists' in /var/www/html/tma/protected/controllers/ProjectsController.php:55
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks('1')
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/index
+---
+2015/05/19 03:43:10 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/tma/index.php/projects/complete/1
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (15)
+2015/05/19 03:43:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'No project with that ID exists' in /var/www/html/tma/protected/controllers/ProjectsController.php:55
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks('2')
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/2
+HTTP_REFERER=http://localhost/tma/index.php/projects
+---
+2015/05/19 03:44:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'No project with that ID exists' in /var/www/html/tma/protected/controllers/ProjectsController.php:55
+Stack trace:
+#0 [internal function]: ProjectsController->actionTasks('2')
+#1 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/2
+HTTP_REFERER=http://localhost/tma/index.php/projects/index
+---
+2015/05/19 03:48:29 [error] [php] Undefined index: Tasks (/var/www/html/tma/protected/controllers/TasksController.php:22)
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/yii/framework/web/CController.php(286): TasksController->runAction()
+#3 /var/www/yii/framework/web/CController.php(265): TasksController->runActionWithFilters()
+#4 /var/www/yii/framework/web/CWebApplication.php(282): TasksController->run()
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/tma/index.php/tasks/save?Tasks[project_id]=3
+in /var/www/html/tma/protected/controllers/TasksController.php (22)
+in /var/www/html/tma/index.php (15)
+2015/05/19 03:48:57 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/tma/index.php/projects/complete/2
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (15)
+2015/05/19 03:49:33 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/tma/index.php/projects/complete/4
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (15)
+2015/05/19 03:49:40 [error] [php] Undefined index: Tasks (/var/www/html/tma/protected/controllers/TasksController.php:22)
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/yii/framework/web/CController.php(286): TasksController->runAction()
+#3 /var/www/yii/framework/web/CController.php(265): TasksController->runActionWithFilters()
+#4 /var/www/yii/framework/web/CWebApplication.php(282): TasksController->run()
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/tma/index.php(15): CWebApplication->run()
+REQUEST_URI=/tma/index.php/tasks/save?Tasks[project_id]=4
+in /var/www/html/tma/protected/controllers/TasksController.php (22)
+in /var/www/html/tma/index.php (15)
+2015/05/19 03:53:20 [error] [php] Undefined index: Tasks (/var/www/html/tma/protected/controllers/TasksController.php:22)
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/yii/framework/web/CController.php(286): TasksController->runAction()
+#3 /var/www/yii/framework/web/CController.php(265): TasksController->runActionWithFilters()
+#4 /var/www/yii/framework/web/CWebApplication.php(282): TasksController->run()
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/tma/index.php(18): CWebApplication->run()
+REQUEST_URI=/tma/index.php/tasks/save?Tasks[project_id]=4
+in /var/www/html/tma/protected/controllers/TasksController.php (22)
+in /var/www/html/tma/index.php (18)
+2015/05/19 03:53:22 [error] [php] Undefined index: Tasks (/var/www/html/tma/protected/controllers/TasksController.php:22)
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/yii/framework/web/CController.php(286): TasksController->runAction()
+#3 /var/www/yii/framework/web/CController.php(265): TasksController->runActionWithFilters()
+#4 /var/www/yii/framework/web/CWebApplication.php(282): TasksController->run()
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/tma/index.php(18): CWebApplication->run()
+REQUEST_URI=/tma/index.php/tasks/save?Tasks[project_id]=4
+in /var/www/html/tma/protected/controllers/TasksController.php (22)
+in /var/www/html/tma/index.php (18)
+2015/05/19 03:53:31 [error] [php] Undefined index: Tasks (/var/www/html/tma/protected/controllers/TasksController.php:22)
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/yii/framework/web/CController.php(286): TasksController->runAction()
+#3 /var/www/yii/framework/web/CController.php(265): TasksController->runActionWithFilters()
+#4 /var/www/yii/framework/web/CWebApplication.php(282): TasksController->run()
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/tma/index.php(18): CWebApplication->run()
+REQUEST_URI=/tma/index.php/tasks/save?Tasks[project_id]=3
+in /var/www/html/tma/protected/controllers/TasksController.php (22)
+in /var/www/html/tma/index.php (18)
+2015/05/19 03:59:12 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(18): CWebApplication->run()
+REQUEST_URI=/tma/index.php/projects/complete/2
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (18)
+2015/05/19 03:59:39 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(18): CWebApplication->run()
+REQUEST_URI=/tma/index.php/projects/complete/2
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (18)
+2015/05/19 04:00:04 [error] [php] Undefined variable: model (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(18): CWebApplication->run()
+REQUEST_URI=/tma/index.php/projects/complete/2
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (18)
+2015/05/19 04:00:37 [error] [php] Undefined variable: id (/var/www/html/tma/protected/controllers/ProjectsController.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): ProjectsController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): ProjectsController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/tma/index.php(18): CWebApplication->run()
+REQUEST_URI=/tma/index.php/projects/complete/2
+in /var/www/html/tma/protected/controllers/ProjectsController.php (12)
+in /var/www/html/tma/index.php (18)
+2015/05/19 04:01:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "complete".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('complete')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('complete')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('tasks/complete/...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/tma/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/tma/index.php/tasks/complete/id/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('5')
+#1 [internal function]: ProjectsController->actionTasks('5')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/5
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/4
+---
+2015/05/19 04:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:25:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('5')
+#1 [internal function]: ProjectsController->actionTasks('5')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/5
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('1')
+#1 [internal function]: ProjectsController->actionTasks('1')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/1
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/3
+---
+2015/05/19 04:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('6')
+#1 [internal function]: ProjectsController->actionTasks('6')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/6
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/4
+---
+2015/05/19 04:30:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('7')
+#1 [internal function]: ProjectsController->actionTasks('7')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/7
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/4
+---
+2015/05/19 04:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No model witd that ID could be found.' in /var/www/html/tma/protected/controllers/ProjectsController.php:21
+Stack trace:
+#0 /var/www/html/tma/protected/controllers/ProjectsController.php(54): ProjectsController->loadModel('8')
+#1 [internal function]: ProjectsController->actionTasks('8')
+#2 /var/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectsController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('tasks')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/tasks')
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/tma/index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/tma/index.php/projects/tasks/8
+HTTP_REFERER=http://localhost/tma/index.php/projects/tasks/4
+---
+2015/05/19 07:54:13 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.user" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(115): CComponent->__set('user', Array)
+#1 /var/www/yii/framework/web/CController.php(1144): CAccessControlFilter->setRules(Array)
+#2 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#4 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects/index')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/tma/index.php(18): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/projects/index
+---
